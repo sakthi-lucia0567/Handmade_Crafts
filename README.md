@@ -31,6 +31,8 @@ To get started with the Handmade Craft Server, follow these steps:
 
 Once the server is up and running, you can interact with it using HTTP requests. Here are the available endpoints:
 
+[Handmade Craft Server Postman Collection](https://hevenlydemon.postman.co/workspace/Lucifer-Workspace~507e4dff-905a-4d06-a1b0-235262c544ad/collection/18246487-69af5aa7-5715-4e31-becd-7039ca14d1f4?action=share&creator=18246487&active-environment=18246487-efbbace3-ab7d-4723-9b75-0744ebc35355)
+
 - **POST /products**  
   Create a new product. Requires authentication.
 
