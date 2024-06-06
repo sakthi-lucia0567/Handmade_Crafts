@@ -1,6 +1,3 @@
-Certainly! Here's a README template you can use for your handmade craft server:
-
----
 
 # Handmade Craft Server
 
