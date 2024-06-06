@@ -9,7 +9,7 @@ To get started with the Handmade Craft Server, follow these steps:
 
 1. **Clone the repository:**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/sakthi-lucia0567/Handmade_Crafts/
    ```
 
 2. **Install dependencies:**
