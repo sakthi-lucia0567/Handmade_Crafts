@@ -1,4 +1,3 @@
-import { Op } from "sequelize";
 import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
 
@@ -40,7 +39,7 @@ export const userRegister = async (req, res) => {
 
     res
       .status(201)
-      .json({ userId: newUser.user_id, message: "User Created SuccessFully" });
+      .json({ userId: newUser.id, message: "User Created SuccessFully" });
   } catch (err) {
     console.error(err);
     res
@@ -64,8 +63,8 @@ export const userLogin = async (req, res) => {
     delete user.password;
     res
       .status(200)
-      .json({ userID: user.user_id, token, message: "Login Successfully" });
-  } catch (error) {
+      .json({ userID: user.id, token, message: "Login Successfully" });
+  } catch (err) {
     console.error(err);
     res
       .status(500)
